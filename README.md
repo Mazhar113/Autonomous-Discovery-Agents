@@ -1,36 +1,38 @@
 # Autonomous Discovery & Exploration Agents
 
-## Project Overview
-Simulated autonomous agents for exploration and discovery on remote environments (space rovers or deep-sea drones).  
-Agents detect novel formations, plan experiments, execute tasks, and learn adaptively.
+[![Python Version](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
+[![GitHub issues](https://img.shields.io/github/issues/Mazhar113/Autonomous-Discovery-Agents)](https://github.com/Mazhar113/Autonomous-Discovery-Agents/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Mazhar113/Autonomous-Discovery-Agents)](https://github.com/Mazhar113/Autonomous-Discovery-Agents/network)
 
-## Features
-- Novelty detection using anomaly detection
-- Autonomous task selection and execution
-- Reward-based learning for adaptive exploration
-- Visualization of rover/drone movement and discoveries
-- Fully modular and ready-to-run Python simulation
 
-## Requirements
-- Python 3.11+
-- Packages: see `requirements.txt`
 
-## Installation
-```bash
-git clone <repo_url>
-cd Autonomous-Discovery-Agents
-pip install -r requirements.txt
-python main.py
-```
+ AI, Robotics, Autonomous Agents, Exploration, Space Rovers, Deep Sea Drones, Novelty Detection, Reinforcement Learning, Simulation, Python
 
-## File Overview
-- `main.py`: Runs the simulation
-- `environment.py`: Simulated terrain and points of interest
-- `perception.py`: Sensor processing and anomaly detection
-- `decision.py`: Task prioritization and planning
-- `execution.py`: Executes tasks and logs data
-- `learning.py`: Adaptive exploration logic
-- `visualization.py`: Real-time plotting of environment and agent
+---
 
-## License
-MIT License
+## 🚀  Overview
+
+This repository contains a **fully modular Python simulation** of autonomous discovery agents designed for **space rovers** or **deep-sea drones**.  
+Agents are capable of:
+
+- Detecting novel formations or points of interest in unknown environments.
+- Planning and prioritizing scientific tasks autonomously.
+- Executing experiments and collecting data without waiting for remote commands.
+- Learning and adapting based on the outcomes of previous tasks.
+- Visualizing exploration in real-time.
+
+The simulation is ideal for testing autonomous decision-making in environments with **high latency or unknown terrains**.
+
+---
+
+## 🧠 Key Features
+
+- **Novelty Detection:** Uses Isolation Forest for anomaly detection.
+- **Autonomous Task Planning:** Chooses tasks like sample collection, composition analysis, or environmental measurement.
+- **Task Execution & Data Logging:** Simulates experiment execution and logs results.
+- **Adaptive Learning:** Updates exploration strategy based on simulated rewards.
+- **Real-Time Visualization:** Plots agent movement and novel points dynamically.
+- **Modular Python Architecture:** Easy to extend for advanced robotics integration.
+
+---
+
